@@ -1,4 +1,4 @@
-string 1 & string 2
+// string 1 & string 2
 
 
 import java.util.Scanner;
@@ -11,7 +11,7 @@ class Main {
     }
 }
 
-welcome string 
+// welcome string 
 
 import java.util.Scanner;
 class Main {
@@ -19,5 +19,17 @@ class Main {
         Scanner sc=new Scanner(System.in);
         String str1=sc.next();
         System.out.println("Welcome" +" "+ str1);
+    }
+}
+
+// Add 2 numbers
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        System.out.println(a+b);
     }
 }
